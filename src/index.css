@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.sidebar-link {
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+.sidebar-link:hover {
+  background-color: #2575fc;
+  color: white !important;
+}
+.login-bg {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+}
