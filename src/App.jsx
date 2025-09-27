@@ -117,7 +117,7 @@ export function App(){
 
     const login = async() => {
         console.log(username, password);
-        let response = await axios.post("http://localhost:8000/api/token/", {
+        let response = await axios.post("https://fsd-python.onrender.com/api/token/", {
             username,
             password
         });
@@ -164,7 +164,7 @@ function Products() {
     const getProducts = async() => {
 
         console.log("Fetching products with token:", token);
-        let response = await axios.get("http://localhost:8000/api/products/", {
+        let response = await axios.get("https://fsd-python.onrender.com/api/products/", {
             headers: {
                 Authorization: `Token ${token}`
             }
